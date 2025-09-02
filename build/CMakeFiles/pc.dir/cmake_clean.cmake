@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/pc.dir/src/pc_alloc.c.o"
+  "CMakeFiles/pc.dir/src/pc_alloc.c.o.d"
   "CMakeFiles/pc.dir/src/pc_api.c.o"
   "CMakeFiles/pc.dir/src/pc_api.c.o.d"
   "CMakeFiles/pc.dir/src/pc_appender.c.o"

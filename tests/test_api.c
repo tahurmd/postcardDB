@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <stdint.h>
 #include "pc_api.h"
+#include "pc_alloc.h"
 
 static void expect(int cond, const char *msg)
 {

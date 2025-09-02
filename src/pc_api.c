@@ -28,6 +28,9 @@ pc_result_t pc_db_init(pc_db_t *db, pc_flash_t *flash,
   db->ring_capacity = ring_capacity_elems;
   db->next_seq = seq_start;
   db->app_open = false;
+  // init segment allocator
+  if (pc_alloc_init(&db->alloc, flash) != PC_OK)
+    return PC_EINVAL;
   return PC_OK;
 }
 
@@ -103,7 +106,12 @@ pc_result_t pc_db_flush_once(pc_db_t *db)
   // Open appender lazily
   if (!db->app_open)
   {
-    pc_result_t st = pc_appender_open(&db->app, db->flash, /*base*/ 0 + 0, db->next_seq++);
+    size_t base = 0;
+    pc_result_t st = pc_alloc_acquire(&db->alloc, &base);
+    if (st != PC_OK)
+      return st; // PC_NO_SPACE if full
+    st = pc_appender_open(&db->app, db->flash, base, db->next_seq++);
+
     if (st != PC_OK)
       return st;
     db->app_open = true;
@@ -129,6 +137,7 @@ pc_result_t pc_db_flush_once(pc_db_t *db)
 
   // Try to append; if no space, commit and open a new segment
   pc_result_t st = pc_appender_append_block(&db->app, metric, series, ts, val, n);
+
   if (st == PC_NO_SPACE)
   {
     // Commit current, open new, then append
@@ -138,6 +147,11 @@ pc_result_t pc_db_flush_once(pc_db_t *db)
     db->app_open = false;
 
     rc = pc_appender_open(&db->app, db->flash, /*base*/ 0 + 0, db->next_seq++);
+    size_t base2 = 0;
+    rc = pc_alloc_acquire(&db->alloc, &base2);
+    if (rc != PC_OK)
+      return rc;
+    rc = pc_appender_open(&db->app, db->flash, base2, db->next_seq++);
     if (rc != PC_OK)
       return rc;
     db->app_open = true;

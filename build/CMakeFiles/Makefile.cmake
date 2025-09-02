@@ -134,4 +134,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/test_block.dir/DependInfo.cmake"
   "CMakeFiles/test_appender.dir/DependInfo.cmake"
   "CMakeFiles/test_api.dir/DependInfo.cmake"
+  "CMakeFiles/test_alloc.dir/DependInfo.cmake"
   )

@@ -9,6 +9,7 @@
 /Users/tahur/Desktop/postcardDB/postcarddb/build/CMakeFiles/test_block.dir
 /Users/tahur/Desktop/postcardDB/postcarddb/build/CMakeFiles/test_appender.dir
 /Users/tahur/Desktop/postcardDB/postcarddb/build/CMakeFiles/test_api.dir
+/Users/tahur/Desktop/postcardDB/postcarddb/build/CMakeFiles/test_alloc.dir
 /Users/tahur/Desktop/postcardDB/postcarddb/build/CMakeFiles/test.dir
 /Users/tahur/Desktop/postcardDB/postcarddb/build/CMakeFiles/edit_cache.dir
 /Users/tahur/Desktop/postcardDB/postcarddb/build/CMakeFiles/rebuild_cache.dir

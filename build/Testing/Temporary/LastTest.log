@@ -1,10 +1,10 @@
-Start testing: Sep 02 12:35 IST
+Start testing: Sep 02 15:07 IST
 ----------------------------------------------------------
-1/10 Testing: smoke
-1/10 Test: smoke
+1/11 Testing: smoke
+1/11 Test: smoke
 Command: "/Users/tahur/Desktop/postcardDB/postcarddb/build/test_smoke"
 Directory: /Users/tahur/Desktop/postcardDB/postcarddb/build
-"smoke" start time: Sep 02 12:35 IST
+"smoke" start time: Sep 02 15:07 IST
 Output:
 ----------------------------------------------------------
 [PC][INF] /Users/tahur/Desktop/postcardDB/postcarddb/tests/test_smoke.c:26: smoke: starting
@@ -12,147 +12,147 @@ Output:
 [PC][ERR] /Users/tahur/Desktop/postcardDB/postcarddb/tests/test_smoke.c:29: smoke: error example
 smoke: ok
 <end of output>
-Test time =   0.51 sec
+Test time =   0.45 sec
 ----------------------------------------------------------
 Test Passed.
-"smoke" end time: Sep 02 12:35 IST
+"smoke" end time: Sep 02 15:08 IST
 "smoke" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/10 Testing: ring
-2/10 Test: ring
+2/11 Testing: ring
+2/11 Test: ring
 Command: "/Users/tahur/Desktop/postcardDB/postcarddb/build/test_ring"
 Directory: /Users/tahur/Desktop/postcardDB/postcarddb/build
-"ring" start time: Sep 02 12:35 IST
+"ring" start time: Sep 02 15:08 IST
 Output:
 ----------------------------------------------------------
 ring: ok
 <end of output>
-Test time =   0.31 sec
+Test time =   0.27 sec
 ----------------------------------------------------------
 Test Passed.
-"ring" end time: Sep 02 12:35 IST
+"ring" end time: Sep 02 15:08 IST
 "ring" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-3/10 Testing: ring_threads
-3/10 Test: ring_threads
+3/11 Testing: ring_threads
+3/11 Test: ring_threads
 Command: "/Users/tahur/Desktop/postcardDB/postcarddb/build/test_ring_threads"
 Directory: /Users/tahur/Desktop/postcardDB/postcarddb/build
-"ring_threads" start time: Sep 02 12:35 IST
+"ring_threads" start time: Sep 02 15:08 IST
 Output:
 ----------------------------------------------------------
 ring_threads: ok
 <end of output>
-Test time =   0.37 sec
+Test time =   0.47 sec
 ----------------------------------------------------------
 Test Passed.
-"ring_threads" end time: Sep 02 12:35 IST
+"ring_threads" end time: Sep 02 15:08 IST
 "ring_threads" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-4/10 Testing: crc32c
-4/10 Test: crc32c
+4/11 Testing: crc32c
+4/11 Test: crc32c
 Command: "/Users/tahur/Desktop/postcardDB/postcarddb/build/test_crc32c"
 Directory: /Users/tahur/Desktop/postcardDB/postcarddb/build
-"crc32c" start time: Sep 02 12:35 IST
+"crc32c" start time: Sep 02 15:08 IST
 Output:
 ----------------------------------------------------------
 crc32c: ok
 <end of output>
-Test time =   0.28 sec
+Test time =   0.31 sec
 ----------------------------------------------------------
 Test Passed.
-"crc32c" end time: Sep 02 12:35 IST
+"crc32c" end time: Sep 02 15:08 IST
 "crc32c" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-5/10 Testing: flash_sim
-5/10 Test: flash_sim
+5/11 Testing: flash_sim
+5/11 Test: flash_sim
 Command: "/Users/tahur/Desktop/postcardDB/postcarddb/build/test_flash_sim"
 Directory: /Users/tahur/Desktop/postcardDB/postcarddb/build
-"flash_sim" start time: Sep 02 12:35 IST
+"flash_sim" start time: Sep 02 15:08 IST
 Output:
 ----------------------------------------------------------
 flash_sim: ok
 <end of output>
-Test time =   0.38 sec
+Test time =   0.36 sec
 ----------------------------------------------------------
 Test Passed.
-"flash_sim" end time: Sep 02 12:35 IST
+"flash_sim" end time: Sep 02 15:08 IST
 "flash_sim" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-6/10 Testing: logseg
-6/10 Test: logseg
+6/11 Testing: logseg
+6/11 Test: logseg
 Command: "/Users/tahur/Desktop/postcardDB/postcarddb/build/test_logseg"
 Directory: /Users/tahur/Desktop/postcardDB/postcarddb/build
-"logseg" start time: Sep 02 12:35 IST
+"logseg" start time: Sep 02 15:08 IST
 Output:
 ----------------------------------------------------------
 diag: hdr.magic=0x50434431 version=1 type=1 seq=42 ts_min=1000 ts_max=2000 rcnt=123 crc=0xAA4B894C
 logseg: ok
 <end of output>
-Test time =   0.29 sec
+Test time =   0.27 sec
 ----------------------------------------------------------
 Test Passed.
-"logseg" end time: Sep 02 12:36 IST
+"logseg" end time: Sep 02 15:08 IST
 "logseg" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-7/10 Testing: recover
-7/10 Test: recover
+7/11 Testing: recover
+7/11 Test: recover
 Command: "/Users/tahur/Desktop/postcardDB/postcarddb/build/test_recover"
 Directory: /Users/tahur/Desktop/postcardDB/postcarddb/build
-"recover" start time: Sep 02 12:36 IST
+"recover" start time: Sep 02 15:08 IST
 Output:
 ----------------------------------------------------------
 recover: ok
 <end of output>
-Test time =   0.28 sec
+Test time =   0.27 sec
 ----------------------------------------------------------
 Test Passed.
-"recover" end time: Sep 02 12:36 IST
+"recover" end time: Sep 02 15:08 IST
 "recover" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-8/10 Testing: block
-8/10 Test: block
+8/11 Testing: block
+8/11 Test: block
 Command: "/Users/tahur/Desktop/postcardDB/postcarddb/build/test_block"
 Directory: /Users/tahur/Desktop/postcardDB/postcarddb/build
-"block" start time: Sep 02 12:36 IST
+"block" start time: Sep 02 15:08 IST
 Output:
 ----------------------------------------------------------
 block: ok
 <end of output>
-Test time =   0.34 sec
+Test time =   0.27 sec
 ----------------------------------------------------------
 Test Passed.
-"block" end time: Sep 02 12:36 IST
+"block" end time: Sep 02 15:08 IST
 "block" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-9/10 Testing: appender
-9/10 Test: appender
+9/11 Testing: appender
+9/11 Test: appender
 Command: "/Users/tahur/Desktop/postcardDB/postcarddb/build/test_appender"
 Directory: /Users/tahur/Desktop/postcardDB/postcarddb/build
-"appender" start time: Sep 02 12:36 IST
+"appender" start time: Sep 02 15:08 IST
 Output:
 ----------------------------------------------------------
 appender: ok
 <end of output>
-Test time =   0.27 sec
+Test time =   0.32 sec
 ----------------------------------------------------------
 Test Passed.
-"appender" end time: Sep 02 12:36 IST
+"appender" end time: Sep 02 15:08 IST
 "appender" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-10/10 Testing: api
-10/10 Test: api
+10/11 Testing: api
+10/11 Test: api
 Command: "/Users/tahur/Desktop/postcardDB/postcarddb/build/test_api"
 Directory: /Users/tahur/Desktop/postcardDB/postcarddb/build
-"api" start time: Sep 02 12:36 IST
+"api" start time: Sep 02 15:08 IST
 Output:
 ----------------------------------------------------------
 api: ok
@@ -160,8 +160,24 @@ api: ok
 Test time =   0.27 sec
 ----------------------------------------------------------
 Test Passed.
-"api" end time: Sep 02 12:36 IST
+"api" end time: Sep 02 15:08 IST
 "api" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Sep 02 12:36 IST
+11/11 Testing: alloc
+11/11 Test: alloc
+Command: "/Users/tahur/Desktop/postcardDB/postcarddb/build/test_alloc"
+Directory: /Users/tahur/Desktop/postcardDB/postcarddb/build
+"alloc" start time: Sep 02 15:08 IST
+Output:
+----------------------------------------------------------
+alloc: ok
+<end of output>
+Test time =   0.44 sec
+----------------------------------------------------------
+Test Passed.
+"alloc" end time: Sep 02 15:08 IST
+"alloc" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 02 15:08 IST

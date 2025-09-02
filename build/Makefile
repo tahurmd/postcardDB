@@ -269,6 +269,43 @@ test_api/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_api.dir/build.make CMakeFiles/test_api.dir/build
 .PHONY : test_api/fast
 
+#=============================================================================
+# Target rules for targets named test_alloc
+
+# Build rule for target.
+test_alloc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_alloc
+.PHONY : test_alloc
+
+# fast build rule for target.
+test_alloc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_alloc.dir/build.make CMakeFiles/test_alloc.dir/build
+.PHONY : test_alloc/fast
+
+src/pc_alloc.o: src/pc_alloc.c.o
+.PHONY : src/pc_alloc.o
+
+# target to build an object file
+src/pc_alloc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pc.dir/build.make CMakeFiles/pc.dir/src/pc_alloc.c.o
+.PHONY : src/pc_alloc.c.o
+
+src/pc_alloc.i: src/pc_alloc.c.i
+.PHONY : src/pc_alloc.i
+
+# target to preprocess a source file
+src/pc_alloc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pc.dir/build.make CMakeFiles/pc.dir/src/pc_alloc.c.i
+.PHONY : src/pc_alloc.c.i
+
+src/pc_alloc.s: src/pc_alloc.c.s
+.PHONY : src/pc_alloc.s
+
+# target to generate assembly for a file
+src/pc_alloc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pc.dir/build.make CMakeFiles/pc.dir/src/pc_alloc.c.s
+.PHONY : src/pc_alloc.c.s
+
 src/pc_api.o: src/pc_api.c.o
 .PHONY : src/pc_api.o
 
@@ -508,6 +545,30 @@ src/pc_ring.s: src/pc_ring.c.s
 src/pc_ring.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pc.dir/build.make CMakeFiles/pc.dir/src/pc_ring.c.s
 .PHONY : src/pc_ring.c.s
+
+tests/test_alloc.o: tests/test_alloc.c.o
+.PHONY : tests/test_alloc.o
+
+# target to build an object file
+tests/test_alloc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_alloc.dir/build.make CMakeFiles/test_alloc.dir/tests/test_alloc.c.o
+.PHONY : tests/test_alloc.c.o
+
+tests/test_alloc.i: tests/test_alloc.c.i
+.PHONY : tests/test_alloc.i
+
+# target to preprocess a source file
+tests/test_alloc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_alloc.dir/build.make CMakeFiles/test_alloc.dir/tests/test_alloc.c.i
+.PHONY : tests/test_alloc.c.i
+
+tests/test_alloc.s: tests/test_alloc.c.s
+.PHONY : tests/test_alloc.s
+
+# target to generate assembly for a file
+tests/test_alloc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_alloc.dir/build.make CMakeFiles/test_alloc.dir/tests/test_alloc.c.s
+.PHONY : tests/test_alloc.c.s
 
 tests/test_api.o: tests/test_api.c.o
 .PHONY : tests/test_api.o
@@ -759,6 +820,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... pc"
+	@echo "... test_alloc"
 	@echo "... test_api"
 	@echo "... test_appender"
 	@echo "... test_block"
@@ -769,6 +831,9 @@ help:
 	@echo "... test_ring"
 	@echo "... test_ring_threads"
 	@echo "... test_smoke"
+	@echo "... src/pc_alloc.o"
+	@echo "... src/pc_alloc.i"
+	@echo "... src/pc_alloc.s"
 	@echo "... src/pc_api.o"
 	@echo "... src/pc_api.i"
 	@echo "... src/pc_api.s"
@@ -799,6 +864,9 @@ help:
 	@echo "... src/pc_ring.o"
 	@echo "... src/pc_ring.i"
 	@echo "... src/pc_ring.s"
+	@echo "... tests/test_alloc.o"
+	@echo "... tests/test_alloc.i"
+	@echo "... tests/test_alloc.s"
 	@echo "... tests/test_api.o"
 	@echo "... tests/test_api.i"
 	@echo "... tests/test_api.s"

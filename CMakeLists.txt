@@ -24,6 +24,7 @@ add_library(pc STATIC
   src/pc_recover.c 
   src/pc_block_writer.c 
   src/pc_appender.c
+  src/pc_alloc.c  
   src/pc_api.c    
 )
 target_include_directories(pc PUBLIC include)
@@ -79,3 +80,8 @@ add_test(NAME appender COMMAND test_appender)
 add_executable(test_api tests/test_api.c)
 target_link_libraries(test_api pc)
 add_test(NAME api COMMAND test_api)
+
+# New test
+add_executable(test_alloc tests/test_alloc.c)
+target_link_libraries(test_alloc pc)
+add_test(NAME alloc COMMAND test_alloc)

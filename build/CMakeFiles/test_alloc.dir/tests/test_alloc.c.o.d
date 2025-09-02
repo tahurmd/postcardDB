@@ -1,5 +1,5 @@
-CMakeFiles/test_api.dir/tests/test_api.c.o: \
-  /Users/tahur/Desktop/postcardDB/postcarddb/tests/test_api.c \
+CMakeFiles/test_alloc.dir/tests/test_alloc.c.o: \
+  /Users/tahur/Desktop/postcardDB/postcarddb/tests/test_alloc.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \

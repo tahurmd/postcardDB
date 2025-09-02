@@ -198,10 +198,24 @@ CMakeFiles/pc.dir/src/pc_appender.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pc.dir/src/pc_appender.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tahur/Desktop/postcardDB/postcarddb/src/pc_appender.c -o CMakeFiles/pc.dir/src/pc_appender.c.s
 
+CMakeFiles/pc.dir/src/pc_alloc.c.o: CMakeFiles/pc.dir/flags.make
+CMakeFiles/pc.dir/src/pc_alloc.c.o: /Users/tahur/Desktop/postcardDB/postcarddb/src/pc_alloc.c
+CMakeFiles/pc.dir/src/pc_alloc.c.o: CMakeFiles/pc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tahur/Desktop/postcardDB/postcarddb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/pc.dir/src/pc_alloc.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pc.dir/src/pc_alloc.c.o -MF CMakeFiles/pc.dir/src/pc_alloc.c.o.d -o CMakeFiles/pc.dir/src/pc_alloc.c.o -c /Users/tahur/Desktop/postcardDB/postcarddb/src/pc_alloc.c
+
+CMakeFiles/pc.dir/src/pc_alloc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pc.dir/src/pc_alloc.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tahur/Desktop/postcardDB/postcarddb/src/pc_alloc.c > CMakeFiles/pc.dir/src/pc_alloc.c.i
+
+CMakeFiles/pc.dir/src/pc_alloc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pc.dir/src/pc_alloc.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tahur/Desktop/postcardDB/postcarddb/src/pc_alloc.c -o CMakeFiles/pc.dir/src/pc_alloc.c.s
+
 CMakeFiles/pc.dir/src/pc_api.c.o: CMakeFiles/pc.dir/flags.make
 CMakeFiles/pc.dir/src/pc_api.c.o: /Users/tahur/Desktop/postcardDB/postcarddb/src/pc_api.c
 CMakeFiles/pc.dir/src/pc_api.c.o: CMakeFiles/pc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tahur/Desktop/postcardDB/postcarddb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/pc.dir/src/pc_api.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tahur/Desktop/postcardDB/postcarddb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/pc.dir/src/pc_api.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pc.dir/src/pc_api.c.o -MF CMakeFiles/pc.dir/src/pc_api.c.o.d -o CMakeFiles/pc.dir/src/pc_api.c.o -c /Users/tahur/Desktop/postcardDB/postcarddb/src/pc_api.c
 
 CMakeFiles/pc.dir/src/pc_api.c.i: cmake_force
@@ -223,6 +237,7 @@ pc_OBJECTS = \
 "CMakeFiles/pc.dir/src/pc_recover.c.o" \
 "CMakeFiles/pc.dir/src/pc_block_writer.c.o" \
 "CMakeFiles/pc.dir/src/pc_appender.c.o" \
+"CMakeFiles/pc.dir/src/pc_alloc.c.o" \
 "CMakeFiles/pc.dir/src/pc_api.c.o"
 
 # External object files for target pc
@@ -237,10 +252,11 @@ libpc.a: CMakeFiles/pc.dir/src/pc_logseg.c.o
 libpc.a: CMakeFiles/pc.dir/src/pc_recover.c.o
 libpc.a: CMakeFiles/pc.dir/src/pc_block_writer.c.o
 libpc.a: CMakeFiles/pc.dir/src/pc_appender.c.o
+libpc.a: CMakeFiles/pc.dir/src/pc_alloc.c.o
 libpc.a: CMakeFiles/pc.dir/src/pc_api.c.o
 libpc.a: CMakeFiles/pc.dir/build.make
 libpc.a: CMakeFiles/pc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/tahur/Desktop/postcardDB/postcarddb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C static library libpc.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/tahur/Desktop/postcardDB/postcarddb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking C static library libpc.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/pc.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pc.dir/link.txt --verbose=$(VERBOSE)
 

@@ -41,6 +41,7 @@ CMakeFiles/pc.dir/src/pc_api.c.o: \
   /Users/tahur/Desktop/postcardDB/postcarddb/include/pc_logseg.h \
   /Users/tahur/Desktop/postcardDB/postcarddb/include/pc_block.h \
   /Users/tahur/Desktop/postcardDB/postcarddb/include/pc_recover.h \
+  /Users/tahur/Desktop/postcardDB/postcarddb/include/pc_alloc.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \

@@ -21,6 +21,7 @@
 #include "pc_recover.h"
 #include "pc_block.h"
 #include "pc_logseg.h"
+#include "pc_alloc.h"
 
 #ifdef __cplusplus
 extern "C"
@@ -56,6 +57,7 @@ extern "C"
 
     // Monotonic segment sequence number
     uint32_t next_seq;
+    pc_alloc_t alloc;
   } pc_db_t;
 
   // Initialize the DB with a flash device + ring capacity (elements).

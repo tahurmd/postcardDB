@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/tahur/Desktop/postcardDB/postcarddb/src/pc_alloc.c" "CMakeFiles/pc.dir/src/pc_alloc.c.o" "gcc" "CMakeFiles/pc.dir/src/pc_alloc.c.o.d"
   "/Users/tahur/Desktop/postcardDB/postcarddb/src/pc_api.c" "CMakeFiles/pc.dir/src/pc_api.c.o" "gcc" "CMakeFiles/pc.dir/src/pc_api.c.o.d"
   "/Users/tahur/Desktop/postcardDB/postcarddb/src/pc_appender.c" "CMakeFiles/pc.dir/src/pc_appender.c.o" "gcc" "CMakeFiles/pc.dir/src/pc_appender.c.o.d"
   "/Users/tahur/Desktop/postcardDB/postcarddb/src/pc_block_writer.c" "CMakeFiles/pc.dir/src/pc_block_writer.c.o" "gcc" "CMakeFiles/pc.dir/src/pc_block_writer.c.o.d"

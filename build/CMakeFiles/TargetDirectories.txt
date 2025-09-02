@@ -1,0 +1,14 @@
+/Users/tahur/Desktop/postcardDB/postcarddb/build/CMakeFiles/pc.dir
+/Users/tahur/Desktop/postcardDB/postcarddb/build/CMakeFiles/test_smoke.dir
+/Users/tahur/Desktop/postcardDB/postcarddb/build/CMakeFiles/test_ring.dir
+/Users/tahur/Desktop/postcardDB/postcarddb/build/CMakeFiles/test_ring_threads.dir
+/Users/tahur/Desktop/postcardDB/postcarddb/build/CMakeFiles/test_crc32c.dir
+/Users/tahur/Desktop/postcardDB/postcarddb/build/CMakeFiles/test_flash_sim.dir
+/Users/tahur/Desktop/postcardDB/postcarddb/build/CMakeFiles/test_logseg.dir
+/Users/tahur/Desktop/postcardDB/postcarddb/build/CMakeFiles/test_recover.dir
+/Users/tahur/Desktop/postcardDB/postcarddb/build/CMakeFiles/test_block.dir
+/Users/tahur/Desktop/postcardDB/postcarddb/build/CMakeFiles/test_appender.dir
+/Users/tahur/Desktop/postcardDB/postcarddb/build/CMakeFiles/test_api.dir
+/Users/tahur/Desktop/postcardDB/postcarddb/build/CMakeFiles/test.dir
+/Users/tahur/Desktop/postcardDB/postcarddb/build/CMakeFiles/edit_cache.dir
+/Users/tahur/Desktop/postcardDB/postcarddb/build/CMakeFiles/rebuild_cache.dir

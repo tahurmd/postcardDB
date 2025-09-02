@@ -1,0 +1,45 @@
+#!/usr/bin/env bash
+# Simple helper: ./dev clean | build | test | rebuild | debug
+set -euo pipefail
+
+cmd="${1:-help}"
+
+case "$cmd" in
+  clean)
+    echo "🧹 Removing build/ and build-debug/ ..."
+    cmake -E rm -rf build build-debug
+    ;;
+
+  build)
+    echo "🔧 Configure (dev) ..."
+    cmake --preset dev
+    echo "⚙️  Build (dev) ..."
+    cmake --build --preset dev -j
+    ;;
+
+  test)
+    echo "🧪 Test (dev) ..."
+    ctest --preset dev
+    ;;
+
+  rebuild)
+    echo "♻️  Rebuild (clean + build + test, dev) ..."
+    cmake -E rm -rf build
+    cmake --preset dev
+    cmake --build --preset dev -j
+    ctest --preset dev
+    ;;
+
+  debug)
+    echo "🐞 Configure & build debug ..."
+    cmake --preset debug
+    cmake --build --preset debug -j
+    echo "🧪 Test (debug) ..."
+    ctest --preset debug
+    ;;
+
+  *)
+    echo "Usage: ./dev {clean|build|test|rebuild|debug}"
+    exit 2
+    ;;
+esac

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpc.a CMakeFiles/pc.dir/src/pc_crc32c.c.o CMakeFiles/pc.dir/src/pc_log.c.o CMakeFiles/pc.dir/src/pc_ring.c.o CMakeFiles/pc.dir/src/pc_parity.c.o CMakeFiles/pc.dir/src/pc_flash_sim.c.o CMakeFiles/pc.dir/src/pc_logseg.c.o CMakeFiles/pc.dir/src/pc_recover.c.o CMakeFiles/pc.dir/src/pc_block_writer.c.o CMakeFiles/pc.dir/src/pc_appender.c.o CMakeFiles/pc.dir/src/pc_api.c.o
+/usr/bin/ranlib libpc.a
